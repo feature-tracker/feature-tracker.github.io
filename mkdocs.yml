@@ -1,0 +1,31 @@
+site_name: "Feature Tracker"
+site_description: "Feature Tracker"
+site_author: "K Siva Prasad Reddy"
+site_url: "https://feature-tracker.github.io/"
+
+# Repository
+repo_name: "feature-tracker/feature-tracker.github.io"
+repo_url: "https://feature-tracker.github.io"
+
+# Copyright
+copyright: "Copyright &copy; 2024 K Siva Prasad Reddy"
+
+theme:
+  name: material
+nav:
+  - Home: index.md
+# Customization
+extra:
+  manifest: "manifest.webmanifest"
+  social:
+    - icon: fontawesome/brands/github-alt
+      link: "https://github.com/sivaprasadreddy"
+    - icon: fontawesome/brands/twitter
+      link: "https://twitter.com/sivalabs"
+    - icon: fontawesome/brands/linkedin
+      link: "https://www.linkedin.com/in/ksivaprasadreddy/"
+
+# Extensions
+markdown_extensions:
+  - codehilite
+  - tables
