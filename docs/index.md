@@ -14,33 +14,42 @@ You need to install the following software:
 
 ## Local Development
 
-1. Clone the repositories
+**1.Clone the repositories**
 
-    ```
-    $ git clone https://github.com/feature-tracker/docker-infra.git
-   
-    $ git clone https://github.com/feature-tracker/api-gateway.git
-   
-    $ git clone https://github.com/feature-tracker/feature-service.git
-    ```
+```shell
+$ git clone https://github.com/feature-tracker/docker-infra.git
+$ git clone https://github.com/feature-tracker/api-gateway.git
+$ git clone https://github.com/feature-tracker/feature-service.git
+```
 
-2. Start all the required services(Keycloak, databases, message brokers, etc.)
+**2.Start all the required services(Keycloak, databases, message brokers, etc.)**
 
-    ```
-    $ cd docker-infra
-   
-    $ task start_infra
-    ```
+```shell
+$ cd docker-infra
+$ task start_infra
+```
 
-3. Run backend microservices.
+**IMPORTANT:** Add the host name `keycloak` to `/etc/hosts` file pointing to `127.0.0.1`.
 
-    You can run the individual microservices from the IDE. 
+```shell
+127.0.0.1   keycloak
+```
 
-    Alternatively, you can start all the microservices and their dependent services using Docker by running the following command:
+**3.Run backend microservices.**
 
-    ```
-    $ task start
-    ```
+You can run the individual microservices from the IDE. 
+
+Alternatively, you can start all the microservices and their dependent services using Docker by running the following command:
+
+```shell
+$ task start
+```
+
+Once all the services have been started, you should be able to invoke API endpoints via API Gateway.
+
+Examples:
+
+* `curl http://localhost:8989/features/api/products`
 
 ## How to contribute?
 * Run the application and let us know if you face any issue
