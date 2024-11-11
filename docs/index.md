@@ -16,16 +16,19 @@ You need to install the following software:
 
 1. Clone the repositories
 
-    ```shell
+    ```
     $ git clone https://github.com/feature-tracker/docker-infra.git
+   
     $ git clone https://github.com/feature-tracker/api-gateway.git
+   
     $ git clone https://github.com/feature-tracker/feature-service.git
     ```
 
 2. Start all the required services(Keycloak, databases, message brokers, etc.)
 
-    ```shell
+    ```
     $ cd docker-infra
+   
     $ task start_infra
     ```
 
@@ -35,7 +38,7 @@ You need to install the following software:
 
     Alternatively, you can start all the microservices and their dependent services using Docker by running the following command:
 
-    ```shell
+    ```
     $ task start
     ```
 
