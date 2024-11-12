@@ -20,6 +20,7 @@ You need to install the following software:
 $ git clone https://github.com/feature-tracker/docker-infra.git
 $ git clone https://github.com/feature-tracker/api-gateway.git
 $ git clone https://github.com/feature-tracker/feature-service.git
+$ git clone https://github.com/feature-tracker/ft-webapp.git
 ```
 
 **2.Start all the required services(Keycloak, databases, message brokers, etc.)**
@@ -50,6 +51,8 @@ Once all the services have been started, you should be able to invoke API endpoi
 Examples:
 
 * `curl http://localhost:8989/features/api/products`
+
+You can access the Feature Tracker webapp at http://localhost:8080
 
 ## How to contribute?
 * Run the application and let us know if you face any issue
