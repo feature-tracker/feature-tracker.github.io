@@ -20,6 +20,7 @@ You need to install the following software:
 $ git clone https://github.com/feature-tracker/docker-infra.git
 $ git clone https://github.com/feature-tracker/api-gateway.git
 $ git clone https://github.com/feature-tracker/feature-service.git
+$ git clone https://github.com/feature-tracker/notification-service.git
 $ git clone https://github.com/feature-tracker/ft-webapp.git
 ```
 
