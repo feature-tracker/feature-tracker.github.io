@@ -19,6 +19,7 @@ You need to install the following software:
 ```shell
 $ git clone https://github.com/feature-tracker/docker-infra.git
 $ git clone https://github.com/feature-tracker/api-gateway.git
+$ git clone https://github.com/feature-tracker/config-server.git
 $ git clone https://github.com/feature-tracker/feature-service.git
 $ git clone https://github.com/feature-tracker/notification-service.git
 $ git clone https://github.com/feature-tracker/user-service.git
