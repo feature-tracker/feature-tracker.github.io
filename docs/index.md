@@ -24,6 +24,7 @@ $ git clone https://github.com/feature-tracker/feature-service.git
 $ git clone https://github.com/feature-tracker/notification-service.git
 $ git clone https://github.com/feature-tracker/user-service.git
 $ git clone https://github.com/feature-tracker/ft-webapp.git
+$ git clone https://github.com/feature-tracker/feature-tracker-angular.git
 ```
 
 **2.Start all the required services(Keycloak, databases, message brokers, etc.)**
