@@ -23,7 +23,6 @@ $ git clone https://github.com/feature-tracker/config-server.git
 $ git clone https://github.com/feature-tracker/feature-service.git
 $ git clone https://github.com/feature-tracker/notification-service.git
 $ git clone https://github.com/feature-tracker/user-service.git
-$ git clone https://github.com/feature-tracker/ft-webapp.git
 $ git clone https://github.com/feature-tracker/feature-tracker-angular.git
 ```
 
@@ -56,7 +55,7 @@ Examples:
 
 * `curl http://localhost:8989/features/api/products`
 
-You can access the Feature Tracker webapp at http://localhost:8080
+You can access the Feature Tracker Angular application at http://localhost:4200
 
 ## How to contribute?
 * Run the application and let us know if you face any issue
