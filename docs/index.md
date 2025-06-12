@@ -30,14 +30,14 @@ The Keycloak Identity Management System is used as an OAuth 2.0 server to secure
 
 > **IMPORTANT:**
 > 
-> Frontend application uses front-channel to login with Keycloak.
-> Backend microservices uses back-channel to validate auth tokens.
+> Frontend application uses the front-channel to login with Keycloak.
+> Backend microservices use the back-channel to validate auth tokens.
 > 
 > To use the same host name for both scenarios, 
 > add the host name `keycloak` to `/etc/hosts` file pointing to `127.0.0.1`.
 >
-> ```shell
-> 127.0.0.1   keycloak
+> ```
+> 127.0.0.1         keycloak
 > ```
 >
 
