@@ -83,7 +83,7 @@ Alternatively, you can use IntelliJ IDEA Workspace support to clone all the repo
 
 First, install [Multi-Project Workspace Plugin](https://plugins.jetbrains.com/plugin/24765-multi-project-workspace/) if you haven't already installed.
 
-From IntelliJ IDEA, clone the ft-workspace repository which will automatically clone all the required Git repositories.
+From IntelliJ IDEA, clone the [ft-workspace](https://github.com/feature-tracker/ft-workspace) repository (https://github.com/feature-tracker/ft-workspace) which will automatically clone all the required Git repositories.
 
 <video controls src="../ft-workspace-checkout.mp4" title="Workspace checkout using IntelliJ IDEA"></video>
 
