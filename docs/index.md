@@ -83,7 +83,7 @@ $ git clone https://github.com/feature-tracker/feature-tracker-angular.git
 
 ```shell
 $ cd docker-infra
-$ ./local-build.sh
+$ task build
 ```
 
 **3.Start the entire application**
@@ -92,7 +92,7 @@ You can start all the components of the system and their dependent services(Keyc
 using Docker Compose by running the following command:
 
 ```shell
-$ task start
+$ task devstart
 ```
 
 Once all the services have been started, you should be able to invoke API endpoints via API Gateway.
